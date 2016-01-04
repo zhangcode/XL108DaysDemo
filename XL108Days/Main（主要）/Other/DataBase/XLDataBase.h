@@ -1,0 +1,20 @@
+//
+//  XLDataBase.h
+//  XLNetwork
+//
+//  Created by Shelin on 15/11/18.
+//  Copyright © 2015年 GreatGate. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface XLDataBase : NSObject
+
++ (void)saveItemDict:(NSDictionary *)itemDict;
++ (NSArray *)listWithRange:(NSRange)range;
++ (BOOL)isExistWithId:(NSString *)idStr;
++ (void)deleteList;
+
++ (void)saveImagesWith:(NSArray *)imageArray;
++ (NSArray *)fetchImagesFromDataBase;
+@end

@@ -1,0 +1,16 @@
+//
+//  XLPrefixHeader.pch
+//  XL108Days
+//
+//  Created by Shelin on 15/12/3.
+//  Copyright © 2015年 GreatGate. All rights reserved.
+//
+
+#ifndef XLPrefixHeader_pch
+#define XLPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "XLHeader.h"
+
+#endif /* XLPrefixHeader_pch */
